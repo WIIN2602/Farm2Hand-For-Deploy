@@ -52,7 +52,7 @@ export const Navigation: React.FC = () => {
             <Link to="/" className="flex items-center gap-3">
               <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center shadow-md overflow-hidden p-1">
                 <img 
-                  src="/farm2hand-logo.png" 
+                  src="/home/project/public/farm2hand-logo.png" 
                   alt="Farm2Hand Logo" 
                   className="w-full h-full object-contain"
                 />
