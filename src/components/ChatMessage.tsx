@@ -21,7 +21,7 @@ export const ChatMessage: React.FC<ChatMessageProps> = ({ message }) => {
           ) : (
             <div className="p-1 w-full h-full">
               <img 
-                src="/farm2hand-logo.png" 
+                src="/home/project/public/farm2hand-logo.png" 
                 alt="Farm2Hand AI" 
                 className="w-full h-full object-contain"
               />
