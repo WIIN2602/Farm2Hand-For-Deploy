@@ -210,7 +210,7 @@ export const ChatbotPopup: React.FC = () => {
               <div className="flex items-center gap-3">
                 <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center shadow-md overflow-hidden p-1">
                   <img 
-                    src="/farm2hand-logo.png" 
+                    src="/home/project/public/farm2hand-logo.png" 
                     alt="Farm2Hand Logo" 
                     className="w-full h-full object-contain"
                   />
@@ -305,7 +305,7 @@ export const ChatbotPopup: React.FC = () => {
                       <div className="max-w-xs">
                         <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center mx-auto mb-3 shadow-lg overflow-hidden p-1">
                           <img 
-                            src="/farm2hand-logo.png" 
+                            src="/home/project/public/farm2hand-logo.png" 
                             alt="Farm2Hand Logo" 
                             className="w-full h-full object-contain"
                           />
@@ -339,7 +339,7 @@ export const ChatbotPopup: React.FC = () => {
                           <div className="flex gap-2 max-w-[70%]">
                             <div className="flex-shrink-0 w-6 h-6 rounded-full bg-white flex items-center justify-center shadow-md overflow-hidden p-1">
                               <img 
-                                src="/farm2hand-logo.png" 
+                                src="/home/project/public/farm2hand-logo.png" 
                                 alt="Farm2Hand AI" 
                                 className="w-full h-full object-contain animate-pulse"
                               />
