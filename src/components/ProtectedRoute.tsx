@@ -32,7 +32,7 @@ export const ProtectedRoute: React.FC<ProtectedRouteProps> = ({
         <div className="text-center">
           <div className="w-12 h-12 bg-nature-green rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg overflow-hidden p-2 animate-pulse">
             <img 
-              src="/ChatGPT Image 17 มิ.ย. 2568 10_27_08.png" 
+              src="/farm2hand-logo.png" 
               alt="Farm2Hand Logo" 
               className="w-full h-full object-contain"
             />
@@ -54,7 +54,7 @@ export const ProtectedRoute: React.FC<ProtectedRouteProps> = ({
           <div className="max-w-md mx-auto text-center p-6">
             <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg overflow-hidden p-3">
               <img 
-                src="/ChatGPT Image 17 มิ.ย. 2568 10_27_08.png" 
+                src="/farm2hand-logo.png" 
                 alt="Farm2Hand Logo" 
                 className="w-full h-full object-contain"
               />

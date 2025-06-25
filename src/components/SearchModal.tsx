@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { X, Search, Heart, UserPlus, Star, MapPin, Package, Loader2, Check } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import { customerService } from '../services/customerService';
@@ -208,7 +208,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose, type,
   const [currentFollowing, setCurrentFollowing] = useState<string[]>([]);
 
   // Load current customer data when modal opens
-  useEffect(() => {
+  React.useEffect(() => {
     if (isOpen && user) {
       loadCurrentData();
     }
@@ -303,7 +303,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose, type,
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 bg-nature-green rounded-lg flex items-center justify-center shadow-md overflow-hidden p-1">
               <img 
-                src="/ChatGPT Image 17 มิ.ย. 2568 10_27_08.png" 
+                src="/farm2hand-logo.png" 
                 alt="Farm2Hand Logo" 
                 className="w-full h-full object-contain"
               />
